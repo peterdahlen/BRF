@@ -1,0 +1,44 @@
+.navbar-default {
+    background-color: white;
+    font-family: 'Roboto Slab', serif;
+    color: #f0ebd8;
+    padding: 30px 0;
+    border: none;
+}
+
+.navbar-brand { 
+    font-family: 'Roboto Slab', serif;
+    color: #f0ebd8;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 110%;
+}
+
+.dropdown-menu {
+    box-shadow: none;
+    border: none;
+}
+
+.dropdown-menu>li>a {
+    text-align: right;
+    padding: 10px;
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle:after {
+    content: "Meny";
+    color: black;
+    left: -50px;
+    top: 6px;
+    position: absolute;
+    width: 50px;
+}
+
+.navbar-default .navbar-collapse {
+    text-align: right;
+    border: none;
+}
